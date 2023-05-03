@@ -9,7 +9,7 @@ public class Cache {
 
     private static final Map<Long, Person> CACHE_PERSONS = new HashMap<>();
 
-    public static Person getPersonById(Long id) {
+    public static Person getById(Long id) {
 	return CACHE_PERSONS.get(id);
     }
 
